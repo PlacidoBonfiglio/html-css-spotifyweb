@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* UTILS */
-
-/* GENERICS */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -15,6 +14,16 @@
 
 .relative {
     position: relative;
+}
+
+img {
+    display: inline-block;
+}
+
+/* GENERICS */
+a {
+    text-decoration: none;
+    color: #D2D2D2;
 }
 
 /*  TOP CONTENT */
@@ -28,6 +37,26 @@
     height: calc(100vh - 100px);
     background-color: black;
     width: 50px;
+    padding: 5px 10px;
+    flex-direction: column;
+}
+
+/* SIDEBAR TOP*/
+.sidebar-top {
+    flex-basis: 80%;
+}
+
+.sidebar-col li:first-child {
+    margin-bottom: 10px;
+}
+
+.sidebar-col li {
+    margin-bottom: 5px;
+}
+
+/* SIDEBAR BOTTOM */
+.sidebar-bottom {
+    flex-basis: 20%;
 }
 
 /* MAIN */
@@ -41,7 +70,28 @@ main {
 /* HEADER */
 header {
     height: 100px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    padding: 20px;
+    right: 0px;
+    left: 50px;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.upgrade {
+    justify-content: flex-end;
+}
+
+.upgrade a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 /* PLAYERBAR */
