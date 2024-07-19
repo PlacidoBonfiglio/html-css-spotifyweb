@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILS */
+
+/* GENERICS */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.relative {
+    position: relative;
+}
+
+/*  TOP CONTENT */
+.top-content {
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+/* SIDEBAR */
+.sidebar {
+    height: calc(100vh - 100px);
+    background-color: black;
+    width: 50px;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 100px);
+    background-color: rgb(178, 255, 178);
+    width: calc(100% - 50px);
+    overflow: auto;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* PLAYERBAR */
+.playerbar {
+    height: 100px;
+    background-color: #282828;
+    position: relative;
+    z-index: 1;
+}
