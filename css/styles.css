@@ -17,6 +17,14 @@
         display: inline;
     }/* Sidebar active appear */
 
+    .download-link {
+        margin-bottom: 0;
+    }
+
+    div.sidebar-bot-border {
+        display: block;
+    }/* bottom sidebar border appear */
+
     main {
         width: calc(100% - 300px);
     }/* The MAIN expands and fits into the sidebar */

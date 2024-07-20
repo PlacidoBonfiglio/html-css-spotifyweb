@@ -64,7 +64,7 @@ a {
 
 /* SIDEBAR TOP*/
 .sidebar-top {
-    flex-basis: 80%;
+    flex-basis: 90%;
 }
 
 .top-sidebar-logo-small {
@@ -102,7 +102,7 @@ span.sidebar-active {
     position: absolute;
     margin: 0;
     left: -30px;
-    top: 100px;
+    top: 70px;
 }
 
 /* Playlist */
@@ -135,7 +135,37 @@ li span.add {
 
 /* SIDEBAR BOTTOM */
 .sidebar-bottom {
-    flex-basis: 20%;
+    flex-basis: 10%;
+}
+
+.download-link {
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -5px;
+    top: 10px;
+}
+
+div.sidebar-bot-border {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+    width: 100%;
+    border: 1px solid #D2D2D2;
+}
+
+.profile-img img {
+    height: 30px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+.user-name {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
 }
 
 /* MAIN */
