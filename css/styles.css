@@ -2,22 +2,22 @@
     .sidebar {
         width: 300px;
         padding: 0 30px;
-    }/* Si ingrandisce la sidebar */ 
+    }/* bigger sidebar */ 
 
     .dn {
         display: inline;
         margin-left: 5px;
-    }/* Appaiono scritte nella sidebar superati i 768px */
+    }/* sidebar text popup */
 
     .top-sidebar-logo-small {
         display: none;
-    }/* Il logo piccolo scompare */
+    }/* small logo disappear */
 
     .sidebar-active {
         display: inline;
-    }
+    }/* Sidebar active appear */
 
     main {
         width: calc(100% - 300px);
-    }/* Il MAIN si adatta alla sidebar che si espande */
+    }/* The MAIN expands and fits into the sidebar */
 }
