@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .sidebar {
+        width: 300px;
+    }/* Si ingrandisce la sidebar */ 
+
+    .dn {
+        display: inline;
+        margin-left: 5px;
+    }/* Appaiono scritte nella sidebar superati i 768px */
+
+    main {
+        width: calc(100% - 300px);
+    }/* Il MAIN si adatta alla sidebar che si espande */
+}
