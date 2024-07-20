@@ -3,6 +3,10 @@
         width: 300px;
     }/* Si ingrandisce la sidebar */ 
 
+    .top-sidebar-logo-small {
+        display: none;
+    }/* Il logo piccolo scompare */
+
     .dn {
         display: inline;
         margin-left: 5px;
