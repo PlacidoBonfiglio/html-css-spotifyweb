@@ -7,7 +7,7 @@
     .dn {
         display: inline;
         margin-left: 5px;
-    }/* sidebar text popup */
+    }/* sidebar text pop up */
 
     .top-sidebar-logo-small {
         display: none;
@@ -19,7 +19,7 @@
 
     .download-link {
         margin-bottom: 0;
-    }
+    }/* download icon margin removed */
 
     div.sidebar-bot-border {
         display: block;
