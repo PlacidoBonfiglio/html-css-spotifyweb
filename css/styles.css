@@ -1,16 +1,21 @@
 @media screen and (min-width: 768px) {
     .sidebar {
         width: 300px;
+        padding: 0 30px;
     }/* Si ingrandisce la sidebar */ 
-
-    .top-sidebar-logo-small {
-        display: none;
-    }/* Il logo piccolo scompare */
 
     .dn {
         display: inline;
         margin-left: 5px;
     }/* Appaiono scritte nella sidebar superati i 768px */
+
+    .top-sidebar-logo-small {
+        display: none;
+    }/* Il logo piccolo scompare */
+
+    .sidebar-active {
+        display: inline;
+    }
 
     main {
         width: calc(100% - 300px);

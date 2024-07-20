@@ -59,6 +59,15 @@ a {
     flex-basis: 80%;
 }
 
+.top-sidebar-logo-small {
+    height: 30px;
+}
+
+.top-sidebar-logo-big {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
 .sidebar-col-top li:first-child {
     margin-bottom: 10px;
 }
@@ -78,13 +87,14 @@ a {
     margin-bottom: 30px;
 }
 
-.top-sidebar-logo-small {
-    height: 30px;
-}
-
-.top-sidebar-logo-big {
-    margin-bottom: 20px;
-    width: 150px;
+span.sidebar-active {
+    height: 40px;
+    width: 3px;
+    background-color: #ADFF2F;
+    position: absolute;
+    margin: 0;
+    left: -30px;
+    top: 100px;
 }
 
 /* SIDEBAR BOTTOM */
