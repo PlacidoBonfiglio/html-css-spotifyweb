@@ -443,6 +443,17 @@ time {
     background-color: #ADFF2F;
 }
 
+.music-point {
+    position: absolute;
+    top: -5px;
+    left: 90%;
+    visibility: hidden;
+}
+
+.all-musicbar:hover .music-point {
+    visibility: visible;
+}
+
 /* PLAYERBAR RIGHT */
 .multy {
     width: 100%;
@@ -466,8 +477,19 @@ time {
     background-color: white;
 }
 
-.current-volume:hover {
+.volume:hover .current-volume {
     background-color: #ADFF2F;
+}
+
+.current-volume > i {
+    position: absolute;
+    visibility: hidden;
+    top: -5px;
+    left: 80%;
+}
+
+.volume:hover i.vol-point {
+    visibility: visible;
 }
 
 
