@@ -224,14 +224,25 @@ h2 {
     margin-bottom: 30px;
 }
 
-.albums {
+.col {
     gap: 20px;
+    min-height: 200px;
+    text-align: center;
 }
 
-.col {
+.card {
     flex-basis: calc(50% - 20px);
-    min-height: 200px;
-    background-color: #ff9c9c;
+}
+
+.card img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.card h4{
+    color: grey;
+    margin-top: 10px;
 }
 
 /* HEADER */
