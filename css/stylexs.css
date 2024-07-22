@@ -330,7 +330,6 @@ main {
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    margin-right: 10px;
 }
 
 .basis {
@@ -441,6 +440,33 @@ time {
 }
 
 .all-musicbar:hover .current-musicbar {
+    background-color: #ADFF2F;
+}
+
+/* PLAYERBAR RIGHT */
+.multy {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume {
+    height: 5px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.current-volume {
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.current-volume:hover {
     background-color: #ADFF2F;
 }
 
