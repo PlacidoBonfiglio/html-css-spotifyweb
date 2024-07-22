@@ -1,5 +1,5 @@
 @media screen and (min-width: 1100px) {
     .card {
         flex-basis: calc(25% - 60px / 4);
-    }
+    }/* calc for 4 cards in the same line */
 }

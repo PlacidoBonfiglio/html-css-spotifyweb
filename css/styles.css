@@ -28,4 +28,10 @@
     main {
         width: calc(100% - 300px);
     }/* The MAIN expands and fits into the sidebar */
+
+    .favourite {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }/* Musicbar's favourite and folder icon will set in flex-direction row */
 }

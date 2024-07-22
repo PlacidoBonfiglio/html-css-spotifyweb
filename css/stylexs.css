@@ -338,14 +338,19 @@ main {
     height: 100%;
 }
 
-.song-name h3 {
+.song-name a:first-child {
     font-size: 1rem;
     font-size: 0.8rem;
+    color: white;
 }
 
-.song-name h4 {
+.song-name a:last-child {
     font-size: 0.7rem;
     color: grey;
+}
+
+.song-name a:last-child:hover {
+    border-bottom: 1px solid grey;
 }
 
 .favourite {
@@ -390,10 +395,56 @@ button > i.play-btn {
     font-size: 2rem;
 }
 
+.media-player button:hover {
+    scale: 1.1;
+}
+
 /*  PLAYERBAR CENTER BOTTOM */
 .center-bottom {
     height: 30px;
     flex-basis: 100%;
+    align-items: center;
 }
+
+.current-seconds,
+.total-seconds {
+    flex-basis: 40px;
+}
+
+time {
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.total-music {
+    flex-grow: 1;
+}
+
+.total-seconds {
+    text-align: end;
+}
+
+.all-musicbar {
+    max-width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.current-musicbar {
+    max-width: 20%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.all-musicbar:hover .current-musicbar {
+    background-color: #ADFF2F;
+}
+
+
+
 
 
