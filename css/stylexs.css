@@ -6,21 +6,6 @@
     font-weight: bold;
 }
 
-/* UTILS */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.relative {
-    position: relative;
-}
-
-img {
-    display: inline-block;
-}
-
 /* GENERICS */
 ul {
     list-style-type: none;
@@ -38,14 +23,6 @@ a {
     color: #D2D2D2;
 }
 
-.hover:hover *{
-    color: white;
-}
-
-.dn {
-    display: none;
-}
-
 h2 {
     margin-bottom: 30px;
 }
@@ -56,14 +33,33 @@ h5 {
     margin-bottom: 40px;
 }
 
+/* UTILS */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hover:hover *{
+    color: white;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.dn {
+    display: none;
+}
+
 /*  TOP CONTENT */
 .top-content {
     height: calc(100vh - 100px);
     width: 100%;
 }
 
-/* HEADER */
-header {
+/* HEADER */ header {
     height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -275,6 +271,7 @@ main {
     width: 100%;
     max-width: 250px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .card h4{
@@ -310,11 +307,93 @@ main {
 .playerbar-right {
     flex-basis: 30%;
     height: 100%;
-    border: 1px dashed white;
 }
 
 .playerbar-center {
     flex-basis: 40%;
     height: 100%;
-    border: 1px dashed white;
 }
+
+/* PLAYERBAR LEFT */ 
+.song-cover {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.song-cover img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.song-name {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.basis {
+    flex-basis: 100%;
+    height: 100%;
+}
+
+.song-name h3 {
+    font-size: 1rem;
+    font-size: 0.8rem;
+}
+
+.song-name h4 {
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.favourite {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.favourite i {
+    color: grey;
+}
+
+.favourite i:hover {
+    color: white;
+}
+
+/* PLAYERBAR CENTER */
+
+/* PLAYERBAR CENTER TOP */
+.center-top {
+    height: 30px;
+    flex-basis: 100%; 
+    justify-content: center;
+}
+
+.media-player {
+    height: 30px;
+    max-width: 300px;
+    gap: 25px;
+}
+
+.media-player button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+button > i.play-btn {
+    font-size: 2rem;
+}
+
+/*  PLAYERBAR CENTER BOTTOM */
+.center-bottom {
+    height: 30px;
+    flex-basis: 100%;
+}
+
+
