@@ -156,6 +156,11 @@ li span.add {
     display: inline-block;
 }
 
+li:hover span.add {
+    color: black;
+    background-color: #fff;
+}
+
 .create-playlist {
     font-size: 1.2rem;
 }
@@ -265,13 +270,19 @@ main {
 
 .card {
     flex-basis: calc(50% - 10px);
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
     width: 100%;
     max-width: 250px;
-    margin-bottom: 20px;
     cursor: pointer;
+    display: block;
+}
+
+.card h3 {
+    margin-top: 20px;
 }
 
 .card h4{
