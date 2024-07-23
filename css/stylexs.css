@@ -442,7 +442,7 @@ button > i.play-btn {
     flex-basis: 40px;
 }
 
-time {
+span.time {
     color: white;
     font-weight: 600;
     font-size: 0.8rem;
