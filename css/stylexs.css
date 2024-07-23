@@ -131,14 +131,13 @@ h5 {
     margin-bottom: 30px;
 }
 
-span.sidebar-active {
+.sidebar-col-top li.active::before {
+    content: '';
     height: 40px;
-    width: 3px;
-    background-color: #ADFF2F;
+    border-left: 3px solid #ADFF2F;
     position: absolute;
-    margin: 0;
     left: -30px;
-    top: 70px;
+    display: block;
 }
 
 /* PLAYLIST */
@@ -247,13 +246,13 @@ main {
     color: white;
 }
 
-.navbar-active {
+.navbar li button.active::after {
+    content: '';
     height: 2px;
-    width: 50px;
+    width: 50%;
     background-color: #ADFF2F;
-    position: absolute;
-    top: 25px;
-    left: 30px;
+    margin: 3px auto;
+    display: block;
 }
 
 /* MAIN CONTENT */
